@@ -1,0 +1,545 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.021054912672619035 -0.9848457445651904 0.17214978961411592 5.576865698213114
+  position -4.547677451607447 0.7053794123265195 4.0385458264764456
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.0303838 -0.522541 0
+  name "rectangle arena(5)"
+  floorSize 3.5 3.6
+}
+Solid {
+  translation -1.00974 -0.777948 0.0980405
+  rotation -0.0010307265954708426 0.0010534769942708228 0.9999989138938641 1.5574761257097351
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.00497734 0.24517 0.0980374
+  rotation 0.0008297755602153165 -0.0008545136012715391 0.999999290639261 1.5620854854047261
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 2.5 0.2
+      }
+    }
+  ]
+  name "solid(26)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.00012 -0.259008 0.0980405
+  rotation -0.0010307265954708426 0.0010534769942708228 0.9999989138938641 1.5574761257097351
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(24)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.454955 -0.7842 0.0980405
+  rotation -0.0010307265954708426 0.0010534769942708228 0.9999989138938641 1.5574761257097351
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.995066 -0.285859 0.0980377
+  rotation -0.00011278681883072821 0.00011195609546456976 0.9999999873724831 1.570794584425131
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(23)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.27012 -1.03628 0.0980383
+  rotation 0.17509954457038573 -0.9845410898717576 0.00435796344354746 1.5296281852375315e-05
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.0300185 -0.28695 0.098038
+  rotation -2.003457629551452e-17 3.132476793717073e-17 1 1.5708
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.484314 -1.26692 0.098038
+  rotation -2.0034576295514517e-17 3.132476793717072e-17 1 1.5708000000000002
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+E-puck {
+  translation -1.27706 0.96479 -0.000114799
+  rotation -0.001217039952148441 0.0007729479696092431 -0.9999989606820555 1.68071
+  controller "BFS_controller"
+}
+Solid {
+  translation -1.69448 -0.0374538 0.0996061
+  rotation -6.182126580714442e-16 5.64557464100336e-13 1 0.0065463200000000004
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 2.5 0.2
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject DEF shape Shape {
+    appearance PBRAppearance {
+      baseColor 0.2 0 0
+      roughness 1
+      metalness 0
+    }
+    geometry Box {
+      size 0.01 0.5 0.2
+    }
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.76655 -0.689399 0.0996061
+  rotation -6.182126580714442e-16 5.64557464100336e-13 1 0.0065463200000000004
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 3 0.2
+      }
+    }
+  ]
+  name "solid(25)"
+  boundingObject DEF shape Shape {
+    appearance PBRAppearance {
+      baseColor 0.2 0 0
+      roughness 1
+      metalness 0
+    }
+    geometry Box {
+      size 0.01 0.5 0.2
+    }
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.246815 0.529043 0.098038
+  rotation -0.1359339950137482 0.9855214638496755 -0.10133801503480822 1.107427572266439e-16
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.748569 0.501288 0.0980383
+  rotation 0.17509954457038573 -0.9845410898717576 0.00435796344354746 1.5296281852375315e-05
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.22974 0.484332 0.0980383
+  rotation 0.17509954457038573 -0.9845410898717576 0.00435796344354746 1.5296281852375315e-05
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.738154 0.953634 0.098038
+  rotation 0.055598489580190404 -0.9958670633628229 0.07181643311602673 6.768936315681376e-17
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.0238541 0.749849 0.098038
+  rotation -1.4444908075710468e-17 1.444487056845716e-17 1 1.5708000000000002
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.46517 -1.25294 0.0980405
+  rotation -0.0010307265954708426 0.0010534769942708228 0.9999989138938641 1.5574761257097351
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.23817 -1.26988 0.098038
+  rotation -2.0034576295514517e-17 3.132476793717072e-17 1 1.5708000000000002
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 1 0.2
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.204981 1.23045 0.0980374
+  rotation 0.0008297755602153165 -0.0008545136012715391 0.999999290639261 1.5620854854047261
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 3 0.2
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.300526 -2.29032 0.0980374
+  rotation 0.0008297762411647967 -0.0008545142483546104 0.9999992906381429 1.56209
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 3.1 0.2
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.02359 0.736701 0.098038
+  rotation -4.095503557970807e-17 2.966468557409315e-17 1 1.5708000000000002
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.992013 -0.795144 0.0980377
+  rotation -0.00011278681883072821 0.00011195609546456976 0.9999999873724831 1.570794584425131
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.23422 -1.05516 0.0980383
+  rotation 0.17509954457038573 -0.9845410898717576 0.00435796344354746 1.5296281852375315e-05
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.766469 -0.520354 0.0980383
+  rotation 0.17509954457038573 -0.9845410898717576 0.00435796344354746 1.5296281852375315e-05
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 0.5 0.2
+      }
+    }
+  ]
+  name "solid(22)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.258176 -0.289233 0.0960787
+  rotation 0.0033787212199937397 -0.7824490677193962 0.6227054204581531 0.0017340994736389777
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 1 0.2
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.73244 -0.774356 0.096076
+  rotation 6.744630635633764e-05 -0.9998016097365782 -0.019918248395448087 0.0012221352758130465
+  children [
+    DEF shape Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.05 1 0.2
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject USE shape
+  physics Physics {
+  }
+}
