@@ -1,4 +1,4 @@
-# RoBa_Robot
+# SolveMaze
 This is a collaboration to develop a robot capable of solving a maze.
 It is being undertaken as part of the _Autonomous Multiagent Systems_ course at FCAI-CU.
 
@@ -7,7 +7,7 @@ It is being undertaken as part of the _Autonomous Multiagent Systems_ course at 
 - [ Selsabeel Asim ](https://github.com/SelsabeelA)          
   
 
-## Assignment Requirments
+## Project Requirments
 - Create a maze
 -  Apply any searching algorithm (BFS, DFS, A*, ...) to solve the maze with the lowest cost.
     > Note: the cost will be defined as the time taken per path or the number of U-turns or anything else.
