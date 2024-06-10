@@ -23,8 +23,8 @@ rds.enable(timestep)
 # getting the position sensors
 lps = robot.getDevice('left wheel sensor')
 rps = robot.getDevice('right wheel sensor')
-lps.enable(timestep)
-rps.enable(timestep)
+#lps.enable(timestep)
+#rps.enable(timestep)
 
 # enable camera and recognition
 camera = robot.getDevice('camera1')
